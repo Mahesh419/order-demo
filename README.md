@@ -1,6 +1,6 @@
 # Order Demo
 
-his repository contains a simple demonstration of a microservices-based application with E2E trace visualization using Helios telemetry tool. The application consists of three microservices: user-service, payment-service, and order-service.
+This repository contains a simple demonstration of a microservices-based application with E2E trace visualization using Helios telemetry tool. The application consists of three microservices: user-service, payment-service, and order-service.
 
 The order-service microservice fetches user details from the user-service and creates a payment using the payment-service before placing an order for the user. In this scenario, the order-service is running some inefficient database queries, causing a bottleneck in the application.
 
